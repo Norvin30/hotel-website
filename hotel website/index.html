@@ -1,0 +1,160 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title style="color: red;">Hotel Himalaya</title>
+    <style>
+        
+        form{
+        color: mediumvioletred;
+        }
+        body {
+            font-family: Cambria;
+            background-color: white;
+        }
+
+        header {
+            font-size: 20px;
+            background-color: silver;
+            color: red;
+            text-align: center;
+            padding: 2px;
+        }
+
+        nav {
+            background-color: cyan;
+            color: skyblue;
+            padding: 1px;
+            text-align: center;
+        }
+
+        nav a {
+            color: red;
+            padding: 10px;
+            margin:  12px;
+        }
+
+        section {
+            padding: 1opx;
+        }
+
+        footer {
+            background-color: mediumaquamarine;
+            color: darkblue;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hotel Paradise</h1>
+    </header>
+
+    <nav>
+            <a href="aboutus.html"><b>About Us</b></a>
+        <a href="index.html"><b> Home</b></a>
+            <a href="#rooms"><b>Rooms</b></a>
+            <a href="#amenities"><b>Amenities</b></a>
+            <a href="#contact"><b>Contact</b></a>
+            <a href="#Dining"><b>Dining</b></a>
+            <a href="memberShip.html"><b>MemberShip Programs</b></a>          
+        <a href="gallery.html"><b>Gallery</b></a>
+        <button class="btnLogin-popup" a href="http://localhost/phpmyadmin/index.php?route=/table/recent-favorite&db=login1&table=login">Login</button>
+    </nav>
+    <br>
+    
+            
+<form action="/action_page.php">
+<label for="Searching">Search your destination</label>
+<input type="search" id="search" name="search">
+<label for="local time">FROM </label>
+<input type="datetime-local" id="time" name="time">
+    <label for="local time">TO </label>
+<input type="submit" value="submit">
+<input type="datetime-local" id="time" name="time">
+<input type="submit" value="submit">
+
+</form>
+    
+    <section id="home">
+        <h2>Welcome to Hotel Himalaya</h2>
+        <p>Experience luxury and comfort at our beautiful hotel.</p>
+        <img src="mm" alt="Himalayan Mysteries">
+    </section>
+
+    <section id="rooms">
+        <h2>Rooms</h2>
+        <p>Our Hotel is the best hotel in the Himalayas. It offers you a full on fun package </p>
+        <div class="room">
+            <img src="single_room.jpg" alt="Single Room">
+            <h3>Single Room</h3>
+            <p>Perfect for solo travelers.</p>
+        </div>
+        <div class="room">
+            <img src="double_room.jpg" alt="Double Room">
+            <h3>Double Room</h3>
+            <p>Spacious rooms for couples.</p>
+        </div>
+    </section>
+
+    <section id="amenities">
+        <h2>Amenities</h2>
+        <p>Enjoy our top-notch amenities during your stay.</p>
+        <ul>
+            <li>Free Wi-Fi</li>
+            <li>Swimming Pool</li>
+            <li>Fitness Center</li>
+            <li>Room Service</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or want to book a room? Contact us!</p>
+        <address>
+            Email: info@hotelparadise.com<br>
+            Phone: (123) 456-7890
+        </address>
+    </section>
+    <link rel="stylesheet" type="text/php" href="index.php"> 
+    <form method="post" action="connect.php">
+      <div class="form-group">
+          <label for="firstname">Username</label>
+          <input type="text" class="form-control" id="username" />
+        </div>
+        <div class="form-group">
+          <label for="lastname">password</label>
+          <input type="text" class="form-control" id="username" />
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+    
+    <p> For an query pls fill the below details our custokmer executive will shortly reach to you.</p>
+    <link rel="stylesheet" href="query.css">
+<div class="container">
+        <form id="queryForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+<script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" language="javascript" src="script.js"></script>
+            
+            <button type="submit">Submit</button>
+            
+        </form>
+    </div>
+    <script src="script.js"></script>
+    
+    <footer>
+        &copy; 2023 Hotel Paradise. All rights reserved.
+    </footer>
+
+</body>
+</html>
